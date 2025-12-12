@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save The Date</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="envelope" onclick="openEnvelope()">
+    <div class="top-flap"></div>
+    <div class="bottom-flap"></div>
+    <p class="tap">Paspauskite</p>
+</div>
+
+<div id="card" class="card hidden" onclick="flipCard()">
+    <div class="card-inner">
+
+        <div class="card-front">
+            <div class="photo-grid">
+                <img src="https://picsum.photos/300?1">
+                <img src="https://picsum.photos/300?2">
+                <img src="https://picsum.photos/300?3">
+                <img src="https://picsum.photos/300?4">
+                <img src="https://picsum.photos/300?5">
+                <img src="https://picsum.photos/300?6">
+                <img src="https://picsum.photos/300?7">
+                <img src="https://picsum.photos/300?8">
+                <img src="https://picsum.photos/300?9">
+            </div>
+
+            <div class="front-text">
+                <h1>Mes tuokiamės!</h1>
+                <p>2026&nbsp;·&nbsp;07&nbsp;·&nbsp;10 • Kaunas</p>
+            </div>
+        </div>
+
+        <div class="card-back">
+            <h2>Daugiau informacijos atsiųsime vėliau</h2>
+            <p>Prašome pažymėti iki 2026-03-01 ar dalyvausite.</p>
+
+            <a class="rsvp" href="https://docs.google.com/forms" target="_blank">
+                ❧ RSVP forma
+            </a>
+        </div>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
